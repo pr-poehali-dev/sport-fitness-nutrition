@@ -1,5 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Dumbbell, Running, Heart } from "lucide-react";
+import { Dumbbell, RunningIcon, Heart } from "lucide-react";
 
 export const SportSection = () => {
   return (
@@ -35,7 +35,7 @@ export const SportSection = () => {
           <Card className="border-fitness/20 hover:border-fitness transition-colors">
             <CardHeader className="space-y-1">
               <div className="bg-fitness-light p-2 rounded-md w-fit mb-2">
-                <Running className="h-6 w-6 text-fitness" />
+                <RunningIcon className="h-6 w-6 text-fitness" />
               </div>
               <CardTitle>Кардиотренировки</CardTitle>
               <CardDescription>Укрепляйте сердечно-сосудистую систему</CardDescription>
